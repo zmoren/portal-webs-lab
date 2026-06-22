@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>雷速 · 产品说明</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #faf8f5;
+      font-family: 'Georgia', 'Noto Serif SC', 'Times New Roman', serif;
+      color: #2d2a26;
+      line-height: 1.7;
+      padding: 2rem 1.5rem;
+      max-width: 880px;
+      margin: 0 auto;
+    }
+    .hero {
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid #e0dbd4;
+      padding-bottom: 1.8rem;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: #3a3530;
+      margin-bottom: 0.5rem;
+    }
+    .hero .sub {
+      font-size: 1rem;
+      color: #7a7168;
+      font-style: italic;
+    }
+    .intro p {
+      margin: 1.2rem 0;
+      text-align: justify;
+    }
+    .highlight-box {
+      background: #f2efe9;
+      padding: 1.8rem 2rem;
+      margin: 2rem 0;
+      border-radius: 12px;
+      border-left: 6px solid #b7a99a;
+    }
+    .highlight-box h2 {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #3e3832;
+      margin-bottom: 1rem;
+    }
+    .highlight-box ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .highlight-box li {
+      position: relative;
+      padding-left: 1.6rem;
+      margin-bottom: 0.8rem;
+      line-height: 1.6;
+    }
+    .highlight-box li::before {
+      content: "·";
+      position: absolute;
+      left: 0.3rem;
+      color: #8f7e6b;
+      font-weight: bold;
+    }
+    .scene-card {
+      background: #ffffff;
+      border: 1px solid #e4ddd5;
+      border-radius: 16px;
+      padding: 1.8rem 2rem;
+      margin: 2.2rem 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    }
+    .scene-card h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #4b423b;
+      border-bottom: 1px dashed #dad3ca;
+      padding-bottom: 0.6rem;
+      margin-bottom: 1rem;
+    }
+    .scene-card p {
+      margin: 1rem 0;
+    }
+    .tip-box {
+      background: #ede8e0;
+      padding: 1.2rem 1.8rem;
+      border-radius: 40px 12px 12px 40px;
+      margin: 1.8rem 0;
+      font-size: 0.95rem;
+      border: 1px solid #d8cfc4;
+    }
+    .tip-box strong {
+      color: #5b4f44;
+    }
+    .faq-mini {
+      margin: 2rem 0;
+      padding: 1.5rem;
+      background: #f7f4ef;
+      border-radius: 12px;
+    }
+    .faq-mini details {
+      margin-bottom: 0.8rem;
+      border-bottom: 1px solid #e4ddd5;
+      padding-bottom: 0.6rem;
+    }
+    .faq-mini summary {
+      font-weight: 500;
+      cursor: pointer;
+      color: #4d433c;
+      padding: 0.3rem 0;
+    }
+    .faq-mini details p {
+      margin: 0.8rem 0 0.3rem 0;
+      color: #4b423b;
+      font-size: 0.95rem;
+    }
+    .inline-link {
+      color: #7a684f;
+      text-decoration: none;
+      border-bottom: 1px solid #c4b8aa;
+      transition: border-color 0.2s;
+    }
+    .inline-link:hover {
+      border-bottom: 1px solid #4d3b28;
+    }
+    .footer-note {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e2d9d0;
+      font-size: 0.85rem;
+      color: #8b8176;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      body { padding: 1.2rem; }
+      .hero h1 { font-size: 1.7rem; }
+      .highlight-box, .scene-card { padding: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>关于雷速</h1>
+    <div class="sub">从信息的流动，到选择的从容</div>
+  </div>
+
+  <div class="intro">
+    <p>
+      很多事物在被命名之前，就已经存在于我们的感知中——比如速度，比如对精准的期待。<a href="https://portal-webs-leisu.com" class="inline-link">雷速</a>所承载的，正是这样一种将“快速”与“可靠”结合起来的思路：不是单纯追逐瞬时响应，而是在效率与质量之间寻找恰当的平衡点。
+    </p>
+    <p>
+      它并非一个突然出现的概念，而是对日常信息处理需求的持续回应。当我们面对大量数据、频繁的决策节点或不确定的环境时，一个稳定、有条理的支撑系统，往往比单纯的“快”更有价值。
+    </p>
+  </div>
+
+  <div class="highlight-box">
+    <h2>产品思路的几个侧面</h2>
+    <ul>
+      <li><strong>结构优先</strong> —— 在信息呈现之前，先梳理好层次与关联，让使用者能够按需深入，而非被动接收。</li>
+      <li><strong>适应性反馈</strong> —— 不同场景下的交互节奏不同，系统会根据使用习惯与上下文，动态调整呈现方式，减少认知负担。</li>
+      <li><strong>克制的扩展性</strong> —— 功能并非越多越好，每一个新增模块都应经过真实场景验证，避免堆砌。</li>
+      <li><strong>低门槛接入</strong> —— 无论是初次接触还是长期使用者，都能在几秒钟内找到最常用的入口，无需反复学习。</li>
+    </ul>
+  </div>
+
+  <div class="scene-card">
+    <h3>常见使用场景</h3>
+    <p><strong>日常信息梳理</strong><br>
+    当你需要快速从多个来源汇总关键要点时，雷速提供的分类与标签系统可以帮助你减少重复筛选的时间。尤其适合每日简报、项目跟踪或资料归档等轻度但高频的任务。</p>
+    <p><strong>协作中的节奏对齐</strong><br>
+    在团队协作中，信息同步往往比单点效率更重要。通过设定统一的信息节点和更新频率，雷速能让参与者更清晰地了解全局状态，减少不必要的沟通损耗。</p>
+    <p><strong>个人知识缓冲</strong><br>
+    对于需要长期关注的领域，雷速可以作为临时的“知识缓冲区”——将未处理的信息暂存，按照优先级逐步消化，避免因信息过载而遗漏关键内容。</p>
+  </div>
+
+  <div class="tip-box">
+    <strong>提示</strong>：产品目前处于持续优化阶段，部分功能可能根据实际反馈进行调整。如果你对某个细节有疑问，不妨先观察一下使用中的自然反馈，多数问题会在迭代中得到平滑解决。
+  </div>
+
+  <div class="faq-mini">
+    <h3 style="font-weight:500; color:#3e3832; margin-bottom:1rem;">你可能关心的问题</h3>
+    <details>
+      <summary>雷速适合哪些类型的用户？</summary>
+      <p>没有严格的用户画像限制。无论你是个人使用者，还是小型团队的一员，只要你的工作流中需要一定的信息整理和节奏把控，雷速都能提供帮助。不限定行业或规模。</p>
+    </details>
+    <details>
+      <summary>是否需要复杂的配置？</summary>
+      <p>不需要。基础功能开箱可用，进阶设置可根据偏好逐步开启。所有配置项都有默认值，且随时可以重置。</p>
+    </details>
+    <details>
+      <summary>数据安全和隐私如何？</summary>
+      <p>我们遵循常规的保密实践，不在未经授权的情况下收集或分享用户数据。具体细节可参考产品内的隐私说明。</p>
+    </details>
+  </div>
+
+  <div class="footer-note">
+    <span>更多信息请参阅 <a href="https://portal-webs-leisu.com" class="inline-link">雷速</a> · 本页仅为产品思路概述，不构成任何形式的功能承诺或保证。</span>
+  </div>
+
+</body>
+</html>
